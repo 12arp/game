@@ -1,0 +1,80 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#box{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(133, 255, 127);
+}
+#box1{
+    height: 70%;
+    width: 75%;
+    background-color: white;
+    border-radius: 2%;
+    overflow: hidden;
+
+}
+#box2{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(127, 255, 174);
+}
+#box3{
+    display: flex;
+    padding-left: 28%;
+    padding-top: 20px;
+    gap: 100px;
+}
+.c{
+    background-color: white;
+    padding: 10px;
+    border-radius: 2px;
+    
+     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 1000px; 
+}
+.class{
+    display: flex;
+    align-items: center;
+    /* padding-left: 20%; */
+    gap: 10px;
+}
+#box4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100% - 80px);
+    padding-left: 15px;
+    padding-top: 20px;
+    gap: 15px;
+    flex-wrap: wrap;
+
+    
+}
+.bubble{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:  rgb(133, 255, 127);
+}
+.bubble:hover {
+    background-color: rgb(0, 255, 128);
+    cursor: pointer;
+}
